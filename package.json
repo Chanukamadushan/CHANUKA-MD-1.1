@@ -1,0 +1,50 @@
+{
+  "name": "DARK_ADAM-MD",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot created using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name DARK_ADAM-MD",
+    "stop": "pm2 stop DARK_ADAM-MD",
+    "restart": "pm2 restart DARK_ADAM-MD"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "@adiwajshing/keyed-db": "latest",
+    "google-tts-api": "latest",
+    "pino": "latest",
+    "pm2": "^5.2.0",
+    "util": "latest",
+    "express": "latest",
+    "async-g-i-s": "latest",
+    "file-type": "latest",
+    "ytdl-core": "latest",
+    "axios": "latest",
+    "file_size_url": "latest",
+    "fs-extra": "latest",
+    "path": "latest",
+    "node-fetch": "latest",
+    "megajs": "latest",
+    "vm": "latest",
+    "seedr": "latest",
+    "wa-sticker-formatter": "latest",
+    "qrcode-terminal": "latest",
+    "yt-search" : "latest",
+    "api-dylux" : "latest",
+    "@dark-yasiya/yt-dl.js" :"1.0.5",
+    "cheerio" : "1.0.0",
+    "g-i-s": "latest",
+    "mfiredlcore-vihangayt": "latest",
+    "@bochilteam/scraper": "latest",
+    "@sl-code-lords/si-subdl": "latest",
+    "@sl-code-lords/esana-news": "latest",
+    "@ffmpeg-installer/ffmpeg": "latest",
+    "@blackamda/telegram-image-url": "^1.0.0",
+    "youtubedl-core": "latest",
+    "@mrnima/tiktok-downloader":"1.0.0",
+    "@mrnima/facebook-downloader":"1.0.0",
+    "moment-timezone": "latest"
+
+
+  }
+}
