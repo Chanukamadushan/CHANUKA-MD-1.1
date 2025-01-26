@@ -3,7 +3,6 @@
 
 
 
-https://bot-pair-cord.onrender.com/
 
 
 
