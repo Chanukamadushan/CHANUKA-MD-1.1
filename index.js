@@ -100,7 +100,7 @@ async function connectToWA() {
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://pomf2.lain.la/f/vch2ef35.jpg`,
+          url: `https://pomf2.lain.la/f/29usw4n.jpg`,
         },
         caption: up,
       });
