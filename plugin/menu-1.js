@@ -3,7 +3,7 @@ const { cmd, commands } = require("../command");
 
 cmd(
   {
-    pattern: "menu",
+    pattern: "menu1",
     alise: ["getmenu"],
     desc: "get cmd list",
     category: "main",
@@ -63,9 +63,6 @@ cmd(
 | *MAIN COMMANDS* |
     ▫️.alive
     ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
 | *DOWNLOAD COMMANDS* |
     ▫️.song <text>
     ▫️.video <text>
@@ -73,26 +70,26 @@ cmd(
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
+    ▫️.
+    ▫️.
 | *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
+    ▫️.
+    ▫️.
+    ▫️.
+    ▫️.
 | *SEARCH COMMANDS* |
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ
 
-> ROBIN MENU MSG
+> CHANUKA-MD MENU MSG
 `;
-      await robin.sendMessage(
+      await chanuka.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://pomf2.lain.la/f/vch2ef35.jpg",
           },
           caption: madeMenu,
         },
