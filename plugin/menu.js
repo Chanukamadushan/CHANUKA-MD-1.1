@@ -44,9 +44,7 @@ async (conn, mek, m, {
 *╰╼╼╼╼╼╼╼╼╼╼*
 ╰────────❍──────❍❍➣
 
-_*🌟 Reply with the Number you want to select*_
-
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＣＨＡＮＵＫＡ-ＭＤ*
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*
 `;
        // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -93,153 +91,84 @@ _*🌟 Reply with the Number you want to select*_
 *◈──❮ OWNER MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .updatecmd
-┝❍ .shutdown
-┝❍ .broadcast
-┝❍ .setpp
-┝❍ .block
-┝❍ .unblock
-┝❍ .clearchats
-┝❍ .jid
-┝❍ .gjid
-┝❍ .restart
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '2': // MAIN MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ CONVERT MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .sticker
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '3': // GROUP MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ AI MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .ai
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '4': // OWNER MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ SEARCH MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .infodl
-┝❍ .yts
+┝❍ .
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '5': // CONVERT MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ DOWNLOAD MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .Tiktok 
-┝❍ .fb
-┝❍ .twitter 
-┝❍ .mediafire
-┝❍ .ig
-┝❍ .apk
-┝❍ .gdrive
-┝❍ .song
-┝❍ .song2
-┝❍ .video 
-┝❍ .video2
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '6': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ MAIN MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .about
-┝❍ .alive
-┝❍ .ping
-┝❍ .menu2
-┝❍ .anime
-┝❍ .disappear
-┝❍ .senddm
 ┝❍ .menu
-┝❍ .menu3
-┝❍ .owner
-┝❍ .ping2
-┝❍ .ping3
-┝❍ .script
-┝❍ .settings
-┝❍ .system
+┝❍ .menu1
+┝❍ .alive
+┝❍ .anime
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '7': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ GROUP MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .delete
-┝❍ .joinrequests
-┝❍ .allreq
-┝❍ .mute
-┝❍ .unmute
-┝❍ .lockgs
-┝❍ .unlockgs
-┝❍ .leave
-┝❍ .updategname
-┝❍ .updategdesc
-┝❍ .join
-┝❍ .invite
-┝❍ .revoke
-┝❍ .kick
-┝❍ .promote
-┝❍ .demote
-┝❍ .tagall
-┝❍ .hidetag
-┝❍ .taggp
-┝❍ .ginfo
-┝❍ .kickall
-┝❍ .opentime
-┝❍ .closetime
-┝❍ .tagadmin
-┝❍ .mute
-┝❍ .unmute
-┝❍ .add
-┝❍ .setgoodbye
-┝❍ .setwelcome
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });            
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });            
                         break;
                     case '8': // SEARCH MENU
                        await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ FUN MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .animegirl
-┝❍ .animegirl1
-┝❍ .animegirl2
-┝❍ .animegirl3
-┝❍ .animegirl4
-┝❍ .animegirl5
-┝❍ .loli
-┝❍ .dog
-┝❍ .fact
-┝❍ .joke
-┝❍ .hack
-┝❍ .quote
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                          break;
                     case '9': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
@@ -254,7 +183,7 @@ _*🌟 Reply with the Number you want to select*_
 ┝❍ .movie2
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
 
                     break;                       
                     case '10': // SEARCH MENU
@@ -262,13 +191,7 @@ _*🌟 Reply with the Number you want to select*_
 *◈───❮ OTHER MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .define
-┝❍ .github
-┝❍ .gpass
-┝❍ .git
-┝❍ .mn
-┝❍ .trt
-┝❍ .weather
+┝❍ .
 ╰───────────────❍❍➣` }, { quoted: mek });
                         break;
                     case '11': // SEARCH MENU
@@ -276,46 +199,20 @@ _*🌟 Reply with the Number you want to select*_
 *◈───❮ NEWS MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .hiru
-┝❍ .sirasa
-┝❍ .ada
-┝❍ .lankadeepa
-┝❍ .bbc
-┝❍ .itn
-┝❍ .siyatha
-┝❍ .gagana
+┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '12': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
 *◈───❮ TOOLS MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .bass
-┝❍ .blown
-┝❍ .deep
-┝❍ .fast
-┝❍ .reverse2
-┝❍ .calc
-┝❍ .translate
-┝❍ .reverse
-┝❍ .tempmail
-┝❍ .checkmail
-┝❍ .delmail
-┝❍ .encode
-┝❍ .decode
-┝❍ .npmstalk
-┝❍ .iplookup
-┝❍ .instastalk
-┝❍ .githubuser
-┝❍ .password
-┝❍ .hijact
 ┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                         break;
                     case '13': // SEARCH MENU
                         await conn.sendMessage(from, { image: { url: imageUrl }, caption: `
@@ -326,7 +223,7 @@ _*🌟 Reply with the Number you want to select*_
 ┝❍ .
 ╰───────────────❍❍➣
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴍᴅ*` }, { quoted: mek });
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
                     break;
                     default:
                         responseText = "❌ Invalid option. Please enter a valid number (1-6).";
