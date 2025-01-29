@@ -2,7 +2,7 @@ const { cmd, commands } = require('../command');
 const config = require('../config');
 const os = require('os');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson , runtime ,sleep } = require('../lib/functions')
-const imageUrl = 'https://pomf2.lain.la/f/p24bk9zh.jpg';
+const imageUrl = 'https://pomf2.lain.la/f/vch2ef35.jpg';
 
 //menu cmd
 cmd({
@@ -62,7 +62,7 @@ async (conn, mek, m, {
           externalAdReply: {
               title: `ＣＨＡＮＵＫＡ-ＭＤ Menu List`,
               body: `https://CHANUKA-MD-main-web.vercel.app/`,
-              thumbnailUrl: `https://pomf2.lain.la/f/p24bk9zh.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/vch2ef35.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -121,7 +121,7 @@ async (conn, mek, m, {
 *◈───❮ SEARCH MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .
+┝❍ .pin
 ┝❍ .
 ╰───────────────❍❍➣
 
@@ -145,7 +145,6 @@ async (conn, mek, m, {
 ┝❍ .menu
 ┝❍ .menu1
 ┝❍ .alive
-┝❍ .anime
 ╰───────────────❍❍➣
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
@@ -175,12 +174,7 @@ async (conn, mek, m, {
 *◈───❮ MOVIE MENU ❯──◈*
 
 ╭───────────────❍❍➣
-┝❍ .baiscope
-┝❍ .ginisisila
-┝❍ .sinhalasub
-┝❍ .movieinfo
-┝❍ .sub
-┝❍ .movie2
+┝❍ .
 ╰───────────────❍❍➣
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
