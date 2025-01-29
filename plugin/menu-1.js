@@ -62,6 +62,7 @@ cmd(
 
 | *MAIN COMMANDS* |
     ▫️.alive
+    ▫️.menu1
     ▫️.menu
 | *DOWNLOAD COMMANDS* |
     ▫️.song <text>
@@ -79,7 +80,7 @@ ${menu.group}
     ▫️.
 | *SEARCH COMMANDS* |
 ${menu.search}
-
+    ▫️.pin
 
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜᴀɴᴜᴋᴀ ᴛᴇᴄʜ
 
